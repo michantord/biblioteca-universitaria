@@ -4,9 +4,6 @@ public class Libro {
     private String autor;
     private boolean disponible = true;
 
-    // Problema 1: campo privado nunca utilizado.
-    private String codigoInterno = "SIN-CODIGO";
-
     public Libro(String titulo, String autor) {
         this.titulo = titulo;
         this.autor = autor;
